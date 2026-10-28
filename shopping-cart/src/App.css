@@ -1,0 +1,27 @@
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.product-card .card-body {
+  padding: 1rem;
+}
+
+.product-card .card-title {
+  font-weight: 600;
+}
+
+.cart-image {
+  display: block;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 991px) {
+  .product-card .card-body {
+    padding: 0.85rem;
+  }
+}
