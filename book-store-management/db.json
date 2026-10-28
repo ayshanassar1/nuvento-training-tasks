@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 500,
+      "category": "Self-Help",
+      "description": "A practical guide to building good habits and breaking bad ones.",
+      "available": true,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 299,
+      "category": "Fiction",
+      "description": "A young shepherd travels in search of his personal legend.",
+      "available": true,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg"
+    },
+    {
+      "title": "Ikigai",
+      "author": "Hector Garcia and Francesc Miralles",
+      "price": 399,
+      "category": "Self-Help",
+      "description": "Explores the Japanese concept of finding purpose in everyday life.",
+      "available": true,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780143130727-L.jpg",
+      "id": "4"
+    },
+    {
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "price": 399,
+      "category": "Self-Help",
+      "description": "A book about living in the present moment.",
+      "available": true,
+      "cover": "https://covers.openlibrary.org/b/isbn/9781577314806-L.jpg",
+      "id": "1792994828263"
+    }
+  ]
+}
