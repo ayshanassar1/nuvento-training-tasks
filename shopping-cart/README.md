@@ -6,8 +6,6 @@ A responsive shopping cart web application built using React and Redux Toolkit. 
 
 **Live Application:** [View Shopping Cart](https://ayshanassar1.github.io/nuvento-training-tasks/)
 
-**GitHub Repository:** [Nuvento Training Tasks](https://github.com/ayshanassar1/nuvento-training-tasks)
-
 ## Features
 
 - Display a list of sample products.
