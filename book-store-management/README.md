@@ -1,35 +1,36 @@
 # Book Haven – Book Store Management System
 
-## About the Project
+A responsive Book Store Management System built using React, Vite, JSON Server, Axios, and React Bootstrap. The application allows users to manage a collection of books through a simple and user-friendly interface.
 
-Book Haven is a Book Store Management System developed using React, JSON Server, Axios, and React Bootstrap. It allows users to manage a collection of books through a simple and responsive interface.
+## Live Demo
+
+**Live Website:** https://ayshanassar1.github.io/book-store-management/
 
 ## Features
 
-- View all books in the collection.
-- Add new books.
-- Edit existing book details.
-- Delete books with confirmation.
-- Search books by title or author.
-- Filter books by category.
-- Display book cover images.
-- Show book prices and availability status.
-- Validate form inputs.
-- Display success and error messages.
-- Save book changes through JSON Server so they persist after refreshing the page.
-- Responsive design for different screen sizes.
+- **View Books:** Display all available books with their cover images and details.
+- **Add Books:** Add new books with title, author, price, category, description, availability, and cover image.
+- **Edit Books:** Update the details of existing books.
+- **Delete Books:** Remove books from the collection.
+- **Search Books:** Search for books by title or author.
+- **Filter by Category:** Filter books based on their category.
+- **Form Validation:** Validate required fields before submitting book details.
+- **Success and Error Messages:** Display feedback when operations succeed or fail.
+- **Responsive Design:** Access the application on desktop, tablet, and mobile devices.
+- **Data Persistence:** Store book records using JSON Server so changes remain available after refreshing the local application.
 
 ## Technologies Used
 
 - React
-- JavaScript
 - Vite
+- JavaScript
 - JSON Server
 - Axios
 - React Bootstrap
-- Bootstrap
 - React Icons
 - CSS
+- Git and GitHub
+- GitHub Pages
 
 ## Project Structure
 
@@ -41,97 +42,29 @@ book-store-management/
 │   │   └── bookService.js
 │   ├── App.jsx
 │   ├── App.css
-│   ├── index.css
 │   └── main.jsx
 ├── db.json
+├── index.html
 ├── package.json
-├── package-lock.json
-└── README.md
+├── vite.config.js
+├── README.md
+└── .github/
+    └── workflows/
+        └── deploy.yml
 ```
 
-## Requirements
+## Getting Started
 
-Install the following before running the project:
+Follow these steps to run the project on your local machine.
+
+### Prerequisites
+
+Install the following before starting:
 
 - Node.js
 - npm
-- Visual Studio Code (recommended)
-
-## Installation and Setup
+- Git
 
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd book-store-management
-```
-
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Start the Backend
-
-Open a terminal in the project folder and run:
-
-```bash
-npm run server
-```
-
-JSON Server runs at:
-
-`http://localhost:3001`
-
-The books API endpoint is:
-
-`http://localhost:3001/books`
-
-Keep this terminal running.
-
-### 4. Start the Frontend
-
-Open a second terminal in the same project folder and run:
-
-```bash
-npm run dev
-```
-
-Open the local URL displayed in the terminal, usually:
-
-`http://localhost:5173`
-
-## Book Data
-
-Book information is stored in `db.json`. Each book includes:
-
-- ID
-- Title
-- Author
-- Price
-- Category
-- Description
-- Availability
-- Cover image URL
-
-## CRUD Operations
-
-| Operation | HTTP Method | Purpose |
-|---|---|---|
-| Read | GET | Display books |
-| Create | POST | Add a book |
-| Update | PUT | Edit a book |
-| Delete | DELETE | Remove a book |
-
-Axios is used to send HTTP requests from the React frontend to the JSON Server backend.
-
-## Validation and Error Handling
-
-The application checks required fields and validates book prices before saving. It also displays success messages after successful operations and error messages when requests fail.
-
-## Author
-
-Developed as a Book Store Management System project.
