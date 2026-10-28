@@ -1,0 +1,361 @@
+
+/* General page */
+.page {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.intro {
+  color: gray;
+  font-size: 16px;
+}
+
+/* Product cards container */
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Individual product card */
+.product-card {
+  background-color: #f0f8ff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  color: #333333;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(101, 40, 184, 0.12);
+}
+
+/* Product category / Intern ID */
+.category {
+  display: inline-block;
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+/* Welcome page */
+.welcome {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  padding: 60px 7% 35px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.welcome-content {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+  justify-self: start;
+  text-align: left;
+}
+
+.welcome-label {
+  color: #8546d8;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 0 0 22px;
+}
+
+.welcome h1 {
+  color: #6528b8;
+  font-size: clamp(38px, 4.5vw, 64px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -1.5px;
+  margin: 0 0 24px;
+}
+
+.welcome-description {
+  color: #666666;
+  font-size: 17px;
+  line-height: 1.8;
+  max-width: 500px;
+  margin: 0;
+}
+
+/* Explore Interns button */
+.welcome-button {
+  grid-row: 2;
+  justify-self: center;
+  align-self: end;
+  background-color: #f5bd26;
+  color: #333333;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 34px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.welcome-button:hover {
+  background-color: #e6a900;
+  transform: translateY(-3px);
+}
+
+.welcome-button:focus-visible {
+  outline: 3px solid #8546d8;
+  outline-offset: 4px;
+}
+
+/* Interns page */
+.interns-section {
+  min-height: 100vh;
+  background-color: #faf7ff;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.interns-section h2 {
+  color: #6528b8;
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.interns-section .intro {
+  line-height: 1.6;
+}
+
+/* Intern initials avatar */
+.intern-avatar {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #6528b8;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Intern name */
+.product-card h3 {
+  color: #6528b8;
+  margin: 0 0 12px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* Intern role */
+.product-card p {
+  margin: 0 0 16px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ==================================
+   EMPLOYEE DIRECTORY DASHBOARD
+================================== */
+
+/* Main dashboard */
+.dashboard {
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  font-family: Arial, sans-serif;
+}
+
+/* Dashboard header */
+.dashboard-header {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.dashboard-header h1 {
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+.dashboard-header p {
+  margin: 0;
+  color: #dbeafe;
+}
+
+/* Main content layout */
+.dashboard-content {
+  max-width: 900px;
+  margin: 35px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+/* Dashboard cards */
+.dashboard .employee-card,
+.dashboard .status-section,
+.dashboard .profile-views {
+  background-color: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(15, 23, 42, 0.08);
+}
+
+/* Employee details card */
+.dashboard .employee-card {
+  text-align: center;
+}
+
+.dashboard .employee-avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #1e40af;
+}
+
+.dashboard .employee-card h2 {
+  margin-bottom: 8px;
+}
+
+.dashboard .designation {
+  color: #64748b;
+}
+
+/* Employee information */
+.dashboard .employee-details {
+  text-align: left;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+/* Dashboard buttons */
+.dashboard button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 11px 18px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.dashboard button:hover {
+  background-color: #1d4ed8;
+}
+
+.dashboard button:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 3px;
+}
+
+/* Availability section */
+.dashboard .status-section h3,
+.dashboard .profile-views h3 {
+  margin-top: 0;
+}
+
+.dashboard .status {
+  font-weight: bold;
+}
+
+.dashboard .available {
+  color: #15803d;
+}
+
+.dashboard .unavailable {
+  color: #dc2626;
+}
+
+.dashboard .availability-message {
+  color: #64748b;
+  line-height: 1.5;
+}
+
+/* Profile view counter */
+.dashboard .profile-views {
+  text-align: center;
+}
+
+.dashboard .profile-views p {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 0;
+}
+
+/* Welcome message button */
+.dashboard .message-button {
+  justify-self: start;
+  align-self: start;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .welcome {
+    padding: 40px 7% 30px;
+  }
+
+  .welcome-content {
+    max-width: 100%;
+  }
+
+  .welcome h1 {
+    font-size: clamp(36px, 9vw, 48px);
+    letter-spacing: -1px;
+  }
+
+  .welcome-description {
+    font-size: 15px;
+  }
+
+  .interns-section {
+    padding: 15px;
+  }
+
+  .page {
+    padding: 15px;
+  }
+
+  .interns-section h2 {
+    font-size: 26px;
+  }
+
+  .product-card {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Employee dashboard on mobile */
+@media (max-width: 600px) {
+  .dashboard .dashboard-content {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+
+  .dashboard-header h1 {
+    font-size: 25px;
+  }
+}
